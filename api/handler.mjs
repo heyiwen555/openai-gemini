@@ -3,8 +3,25 @@ import worker from "../src/worker.mjs";
 export default worker.fetch;
 
 export const config = {
-  runtime: "nodejs",
-  regions: ["hkg1"],
+  runtime: "edge",
+  regions: [
+    "arn1",
+    "bom1",
+    "cdg1",
+    "cle1",
+    "cpt1",
+    "dub1",
+    "hkg1",
+    "fra1",
+    "gru1",
+    "hnd1",
+    "iad1",
+    "icn1",
+    "kix1",
+    "lhr1",
+    "pdx1",
+    "sfo1",
+    "sin1",
+    "syd1",
+  ],
 };
-
-// trigger: deployment protection now standard
